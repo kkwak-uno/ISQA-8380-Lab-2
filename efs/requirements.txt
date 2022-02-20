@@ -5,4 +5,4 @@ django-mathfilters==1.0.0
 djangorestframework==3.11.0
 gunicorn==20.0.4
 requests==2.25.1
-
+pip install psycopg2==2.8.6
