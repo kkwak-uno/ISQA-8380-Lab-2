@@ -38,8 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'portfolio',
     'crispy_forms',
-    'django.contrib.postgres',
-    'psycopg2',
 ]
 
 MIDDLEWARE = [
