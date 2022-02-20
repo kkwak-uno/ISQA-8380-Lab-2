@@ -25,7 +25,7 @@ SECRET_KEY = 'v@=+_5ypm^+5q%-y+talel-2!h288#8*ha-8x)vama^3(!(=he'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'portfolio',
     'crispy_forms',
     'django.contrib.postgres',
+    'psycopg2',
 ]
 
 MIDDLEWARE = [
