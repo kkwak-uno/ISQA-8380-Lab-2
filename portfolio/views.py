@@ -174,7 +174,7 @@ def investor_delete(request, pk):
 
 
 class CustomerList(APIView):
-
+    @login_required
     def get(self, request):
         customers_json = Customer.objects.all()
         serializer = CustomerSerializer(customers_json, many=True)
